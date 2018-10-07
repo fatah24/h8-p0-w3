@@ -9,7 +9,7 @@ function groupAnimals(animals) {
              kelompok.push(animals[i])
 
              if(i === animals.length -2){
-              kelompok.push(animals[i+1])
+              kelompok.push(animals[i])
               result.push(kelompok)
                 }
              
